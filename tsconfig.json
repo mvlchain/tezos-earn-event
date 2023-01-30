@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "rootDirs": [
+        "example",
+        "lib"
+      ],
+      "declaration": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "target": "ESNext",
+      "sourceMap": true,
+      "incremental": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strictNullChecks": true,
+      "lib": ["esnext", "dom"],
+      "useDefineForClassFields": true,
+      "typeRoots": [
+          "node_modules/@types"
+      ],
+      "resolveJsonModule": true
+  },
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+}

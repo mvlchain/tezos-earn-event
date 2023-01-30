@@ -1,0 +1,45 @@
+{
+  "name": "tezos-earn-event",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "pro": "node dist/app.js",
+    "start": "ts-node src/app.ts",
+    "clean": "rm -rf ./dist/* && touch ./dist/.keep"
+  },
+  "author": {
+    "name": "MVL",
+    "url": "https://github.com/mvlchain"
+  },
+  "engines": {
+    "node": ">=16.14.2",
+    "npm": ">=8.5.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "@types/uuid": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.1",
+    "prettier": "^2.8.3",
+    "ts-node": "^10.9.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@taquito/signer": "^15.1.0",
+    "@taquito/taquito": "^15.1.0",
+    "decimal.js": "^10.4.3",
+    "ethers": "^5.7.2",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "uuid": "^9.0.0",
+    "webpack": "^5.74.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
