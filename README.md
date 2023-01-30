@@ -1,7 +1,6 @@
 <div align="center">
   <h1>Tezos Earn Event</h1>
   <br />
-  <hr />
 </div>
 
 ## What is Tezos Earn Event?
